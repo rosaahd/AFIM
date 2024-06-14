@@ -21,18 +21,6 @@ class UsuariosService {
         return usuario || []
     }
 
-    //no usada
-    async anadirUsuario( data){    
-        const mensaje  = await this.mongoDB.create(this.collection, data)
-        return mensaje || []
-    }
-
-    //no usada
-    async eliminarUsuario(id){
-        const mensaje  = await this.mongoDB.delete(this.collection, id)
-        return mensaje || []
-
-    }
 } 
 
 module.exports = UsuariosService;
