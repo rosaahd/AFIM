@@ -1,0 +1,21 @@
+[{"id":1,"name":"Laura Castillo","email":"laura.castillo@example.com","bio":"Entusiasta de la tecnología y apasionado por la innovación.","progreso":{"aciertos":81,"errores":11},"tiempoMedio":59.62},
+{"id":2,"name":"Marco Santini","email":"marco.santini@example.com","bio":"Viajero empedernido con amor por las culturas del mundo.","progreso":{"aciertos":23,"errores":91},"tiempoMedio":19.66},
+{"id":3,"name":"Sofia Lorenzi","email":"sofia.lorenzi@example.com","bio":"Joven ingeniero, amante de los robots y la inteligencia artificial.","progreso":{"aciertos":37,"errores":88},"tiempoMedio":97.98},
+{"id":4,"name":"David Molina","email":"david.molina@example.com","bio":"Chef aficionado, explorando sabores y fusiones culinarias globales.","progreso":{"aciertos":65,"errores":25},"tiempoMedio":88.24},
+{"id":5,"name":"Elena Torres","email":"elena.torres@example.com","bio":"Escritor y poeta, capturando emociones a través de palabras.","progreso":{"aciertos":94,"errores":33},"tiempoMedio":10.97},
+{"id":6,"name":"Juan Martínez","email":"juan.martinez@example.com","bio":"Ecologista dedicado a la conservación de la biodiversidad marina.","progreso":{"aciertos":88,"errores":5},"tiempoMedio":23.92},
+{"id":7,"name":"Isabella Ramirez","email":"isabella.ramirez@example.com","bio":"Estudiante de medicina con enfoque en la pediatría rural.","progreso":{"aciertos":85,"errores":68},"tiempoMedio":51.82},
+{"id":8,"name":"Miguel Ángel Rubio","email":"miguel.rubio@example.com","bio":"Músico de jazz, experimentando con sonidos clásicos y modernos.","progreso":{"aciertos":43,"errores":93},"tiempoMedio":79.62},
+{"id":9,"name":"Clara González","email":"clara.gonzalez@example.com","bio":"Historiador, especializado en el Renacimiento europeo y su arte.","progreso":{"aciertos":83,"errores":42},"tiempoMedio":82.16},
+{"id":10,"name":"Fernando Vega","email":"fernando.vega@example.comm","bio":"Desarrollador de software con pasión por el código limpio.","progreso":{"aciertos":10,"errores":33},"tiempoMedio":74.38}]
+
+
+
+
+
+
+
+
+
+
+
