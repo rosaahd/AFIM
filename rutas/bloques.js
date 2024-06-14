@@ -81,18 +81,20 @@ function bloquesAPI(app) {
         next(err);
       }
     });
-  }
+  
+  
 
-  // Eliminar un bloque
-  router.delete('/:id', async function (req, res, next) {
-    try {
-      const { id } = req.params;
-      const result = await bloquesService.eliminarBloque(id);
-      res.status(200).json(result);
-    } catch (err) {
-      console.log(`Se produjo un error: ${err}`);
-      next(err);
-    }
-  });
+    // Eliminar un bloque
+    router.delete('/:id', async function (req, res, next) {
+      try {
+        const { id } = req.params;
+        const result = await bloquesService.eliminarBloque(id);
+        res.status(200).json(result);
+      } catch (err) {
+        console.log(`Se produjo un error: ${err}`);
+        next(err);
+      }
+    });
+  }
 
 module.exports = bloquesAPI;
