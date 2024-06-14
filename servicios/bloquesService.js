@@ -46,11 +46,6 @@ class BloquesService {
         return { fichaId: newFichaId, message: "Ficha añadida con éxito" };
     }
 
-    async eliminarBloque(bloqueId) {
-        const result = await this.mongoDB.delete(this.collection, bloqueId);
-        return result > 0 ? { message: 'Bloque eliminado con éxito' } : { message: 'Bloque no encontrado' };
-    }
-
 } 
 
 module.exports = BloquesService
